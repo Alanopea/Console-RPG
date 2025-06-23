@@ -40,7 +40,7 @@ namespace Game.Rooms
             }
 
             //Vampire chance to appear
-            if (rand.NextDouble() < 0.5)
+            if (rand.NextDouble() < 0.1)
             {
                 Console.WriteLine("\n!!! A mysterious room appears...");
                 var minibossRoom = factory.CreateMiniBossRoom();
